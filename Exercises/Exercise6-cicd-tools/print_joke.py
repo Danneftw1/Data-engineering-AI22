@@ -1,5 +1,9 @@
-import pyjokes
+import os
 import random
+import sys
+
+import pyjokes
+import pytest
 
 reactions = [
     "Hilarious!",
@@ -14,8 +18,13 @@ reactions = [
     "*Insert uncontrollable laughter here*",
 ]
 
+
 def get_random_reaction():
     print(random.choice(reactions))
+
+
+def cool_thing():
+    print("This is a cool thing!")
 
 
 def print_random_joke_and_reaction():
