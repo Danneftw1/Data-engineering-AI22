@@ -15,7 +15,7 @@ reactions = [
 ]
 
 def get_random_reaction():
-    print (random.choice(reactions))
+    print(random.choice(reactions))
 
 
 def print_random_joke_and_reaction():
